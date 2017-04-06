@@ -65,7 +65,7 @@
 
   <scm>
     <url>https://github.com/openshiftio</url>
-    <connection>https://github.com/openshiftio/booster-parent.git</connection>
+    <connection>scm:git:https://github.com/openshiftio/booster-parent.git</connection>
     <developerConnection>scm:git:git:@github.com:openshiftio/booster-parent.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
