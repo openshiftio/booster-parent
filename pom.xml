@@ -56,6 +56,7 @@
     <maven-war-plugin.version>3.0.0</maven-war-plugin.version>
     <nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
 
+    <booster-common.version>1</booster-common.version>
   </properties>
 
   <prerequisites>
@@ -288,6 +289,15 @@
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>io.openshift</groupId>
+      <artifactId>openshift-test-utils</artifactId>
+      <version>${booster-common.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 
   <profiles>
     <profile>
