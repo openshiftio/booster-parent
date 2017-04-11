@@ -31,4 +31,5 @@ You may want to override:
   
 1. `mvn release:prepare -Popenshiftio`
 2. `git checkout $TAG`
-3. `mvn clean deploy -Prelease -Popenshiftio`
+3. export GPG_TTY=$(tty)  # <---- required on mac with gpg2
+4. `mvn clean deploy -Prelease -Popenshiftio`
