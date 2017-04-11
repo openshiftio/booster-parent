@@ -21,10 +21,14 @@ You may want to override:
 </scm>
 ```
 
-* developers section
+# Developers section
+
+## Deploying a snapshot:
+
+`mvn clean deploy -Popenshiftio`
   
 ## Release process
   
-1. `mvn release:prepare`
+1. `mvn release:prepare -Popenshiftio`
 2. `git checkout $TAG`
-3. `mvn clean deploy -Prelease`
+3. `mvn clean deploy -Prelease -Popenshiftio`
