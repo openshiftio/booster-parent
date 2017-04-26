@@ -55,7 +55,7 @@
     <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
     <maven-war-plugin.version>3.0.0</maven-war-plugin.version>
 
-    <booster-common.version>1</booster-common.version>
+    <booster-common.version>2</booster-common.version>
   </properties>
 
   <prerequisites>
