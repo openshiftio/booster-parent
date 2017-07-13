@@ -35,8 +35,8 @@ Also be careful of the execution output. You may notice connection / read timeou
 
 The license processing requires two files that need to be located into the `.openshiftio` directory:
 
-* `licenses-fix.xsl` from https://raw.githubusercontent.com/gytis/spring-boot-http-booster/master-licenses-parent/.openshiftio/licenses-fix.xsl
-* `licenses.xml` from https://raw.githubusercontent.com/gytis/spring-boot-http-booster/master-licenses-parent/.openshiftio/licenses.xsl
+* `licenses-fix.xsl` from https://raw.githubusercontent.com/openshiftio-vertx-boosters/vertx-http-booster/master/.openshiftio/licenses-fix.xsl
+* `licenses.xml` from https://raw.githubusercontent.com/openshiftio-vertx-boosters/vertx-http-booster/master/.openshiftio/licenses.xsl
 
 # Developers section
 
