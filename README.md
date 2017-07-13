@@ -33,6 +33,11 @@ Licenses are generated into `src/licenses`. It must be committed to the code rep
 
 Also be careful of the execution output. You may notice connection / read timeouts. Check that the content is correct and all files are there.
 
+The license processing requires two files that need to be located into the `.openshiftio` directory:
+
+* `licenses-fix.xsl` from https://raw.githubusercontent.com/gytis/spring-boot-http-booster/master-licenses-parent/.openshiftio/licenses-fix.xsl
+* `licenses.xml` from https://raw.githubusercontent.com/gytis/spring-boot-http-booster/master-licenses-parent/.openshiftio/licenses.xsl
+
 # Developers section
 
 ## Deploying a snapshot:
