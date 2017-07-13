@@ -21,6 +21,18 @@ You may want to override:
 </scm>
 ```
 
+## Generating license.xml
+
+To generate the license.xml in your child project use:
+
+```
+mvn clean compile -Plicenses
+```
+
+Licenses are generated into `src/licenses`. It must be committed to the code repository. You must update the content (using the same command line) every time you update a dependency in your project.
+
+Also be careful of the execution output. You may notice connection / read timeouts. Check that the content is correct and all files are there.
+
 # Developers section
 
 ## Deploying a snapshot:
