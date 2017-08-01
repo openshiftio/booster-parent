@@ -389,7 +389,7 @@
               <execution>
                 <id>generate-initial-licenses</id>
                 <goals>
-                  <goal>download-licenses</goal>
+                  <goal>aggregate-download-licenses</goal>
                 </goals>
                 <phase>generate-resources</phase>
                 <configuration>
@@ -400,7 +400,7 @@
               <execution>
                 <id>download-licenses</id>
                 <goals>
-                  <goal>download-licenses</goal>
+                  <goal>aggregate-download-licenses</goal>
                 </goals>
                 <phase>process-resources</phase>
                 <configuration>
