@@ -58,10 +58,6 @@
     <booster-common.version>2</booster-common.version>
   </properties>
 
-  <prerequisites>
-    <maven>${maven.min.version}</maven>
-  </prerequisites>
-
   <scm>
     <url>https://github.com/openshiftio</url>
     <connection>scm:git:https://github.com/openshiftio/booster-parent.git</connection>
