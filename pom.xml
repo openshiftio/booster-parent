@@ -4,7 +4,7 @@
 
   <groupId>io.openshift</groupId>
   <artifactId>booster-parent</artifactId>
-  <version>7</version>
+  <version>8-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>OpenShift.io Boosters</name>
@@ -62,7 +62,7 @@
     <url>https://github.com/openshiftio</url>
     <connection>scm:git:https://github.com/openshiftio/booster-parent.git</connection>
     <developerConnection>scm:git:git:@github.com:openshiftio/booster-parent.git</developerConnection>
-    <tag>booster-parent-7</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
