@@ -39,7 +39,7 @@
     <jdk.min.version>${maven.compiler.source}</jdk.min.version>
 
     <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
-    <fabric8-maven-plugin.version>3.5.1</fabric8-maven-plugin.version>
+    <fabric8-maven-plugin.version>3.5.22</fabric8-maven-plugin.version>
     <maven-clean-plugin.version>3.0.0</maven-clean-plugin.version>
     <maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
     <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
