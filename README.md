@@ -49,4 +49,4 @@ The license processing requires two files that need to be located into the `.ope
 1. `mvn release:prepare -Popenshiftio`
 2. `git checkout $TAG`
 3. export GPG_TTY=$(tty)  # <---- required on mac with gpg2
-4. `mvn clean deploy -Prelease -Popenshiftio`
+4. `mvn clean deploy -Prelease -Popenshiftio -Dgpg.executable=gpg` 
