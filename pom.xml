@@ -272,6 +272,32 @@
     </dependency>
   </dependencies>
 
+  <repositories>
+    <repository>
+      <id>redhat-early-access</id>
+      <name>Redhat Early Access Repository</name>
+      <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
+    </repository>
+    <repository>
+      <id>redhat-ga</id>
+      <name>Redhat GA Repository</name>
+      <url>https://maven.repository.redhat.com/ga/</url>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>redhat-early-access</id>
+      <name>Redhat Early Access Repository</name>
+      <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
+    </pluginRepository>
+    <pluginRepository>
+      <id>redhat-ga</id>
+      <name>Redhat GA Repository</name>
+      <url>https://maven.repository.redhat.com/ga/</url>
+    </pluginRepository>
+  </pluginRepositories>
+
   <profiles>
     <profile>
       <id>openshiftio</id>
