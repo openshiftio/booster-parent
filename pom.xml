@@ -55,7 +55,6 @@
     <maven-surefire-plugin.version>2.20</maven-surefire-plugin.version>
     <maven-war-plugin.version>3.1.0</maven-war-plugin.version>
 
-    <booster-common.version>2</booster-common.version>
     <arquillian-cube.version>1.9.2</arquillian-cube.version>
 
     <fabric8.generator.from>registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift</fabric8.generator.from>
@@ -273,15 +272,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
-  <dependencies>
-    <dependency>
-      <groupId>io.openshift</groupId>
-      <artifactId>openshift-test-utils</artifactId>
-      <version>${booster-common.version}</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 
   <repositories>
     <repository>
