@@ -56,6 +56,7 @@
     <maven-war-plugin.version>3.1.0</maven-war-plugin.version>
 
     <booster-common.version>2</booster-common.version>
+    <arquillian-cube.version>1.9.1</arquillian-cube.version>
 
     <fabric8.generator.from>registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift</fabric8.generator.from>
   </properties>
@@ -261,6 +262,18 @@
     </plugins>
   </build>
 
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.arquillian.cube</groupId>
+        <artifactId>arquillian-cube-bom</artifactId>
+        <version>${arquillian-cube.version}</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
   <dependencies>
     <dependency>
       <groupId>io.openshift</groupId>
@@ -327,6 +340,7 @@
               <autoReleaseAfterClose>true</autoReleaseAfterClose>
             </configuration>
           </plugin>
+
         </plugins>
       </build>
     </profile>
