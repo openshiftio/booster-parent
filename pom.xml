@@ -507,7 +507,7 @@
       </build>
     </profile>
     <profile>
-      <id>use-candidate</id>
+      <id>extra-maven-repository</id>
       <activation>
         <property>
           <name>extra.maven.repo</name>
