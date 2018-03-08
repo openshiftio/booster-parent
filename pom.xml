@@ -506,6 +506,28 @@
         </plugins>
       </build>
     </profile>
+    <profile>
+      <id>extra-maven-repository</id>
+      <activation>
+        <property>
+          <name>extra.maven.repo</name>
+        </property>
+      </activation>
+      <repositories>
+        <repository>
+          <id>extra-repo</id>
+          <name>Extra maven repository</name>
+          <url>${extra.maven.repo}</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>extra-repo</id>
+          <name>Extra maven repository</name>
+          <url>${extra.maven.repo}</url>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
   </profiles>
 
 </project>
